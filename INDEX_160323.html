@@ -5,8 +5,86 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
 
-  <link rel="stylesheet" href="css/style.css">
   <title>Seletores CSS</title>
+
+  <style>
+    *{
+    list-style: none;
+    text-decoration: none;
+}
+
+.dica{
+    padding-bottom: 1rem;
+}
+
+#inscreva{
+    position: absolute;
+    top: -1.5rem;
+    left: 1rem;
+    color: #000;
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 25px;
+}
+
+header{
+    background: #000;
+    width: 100%;
+    height: 12rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+header h1{
+    color: #0B874B;
+    font-size: 4rem;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+section nav{
+    width: 30%;
+}
+article{
+    width: 70%;
+}
+
+aside h1{
+    color: #0B874B ;
+}
+
+footer{
+    text-align: right;
+    margin-top: 2rem;
+    font-size: 10px;
+}
+
+nav #menulist{
+    display: flex;
+    flex-direction: column;
+    padding-right: 2rem;
+}
+
+.menuitem{
+    padding: 0.5rem;
+    background: #fff;
+    border-radius: 25px;
+    border: 1px solid #cecaca;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    background: #f5f3f3;
+}
+.menuitem a{
+    color: #0B874B;
+}
+  </style>
 </head>
 
 <body>
@@ -25,17 +103,18 @@
     <li>seletor de estado</li>
     <li>media query</li>
   </ul>
-  <p>
+  <p class="dica">
     ** Redimensione a janela do navegador para ver o efeito responsivo **.
   </p>
-  <span>
-    INSCREVA-SE
-  </span>
   <header>
+    <span id="inscreva">
+      INSCREVA-SE
+    </span>
     <h1>Cursos de Graduação</h1>
   </header>
 
-  <section>
+  
+  <section >
     <nav>
       <ul id="menulist">
         <li class="menuitem">
@@ -49,18 +128,21 @@
         </li>
       </ul>
     </nav>
+
+    <article>
+      <aside>
+          <h1>Análise e Desenvolvimento de Sistemas</h1>
+          <p>
+            O tecnólogo com esta formação desenvolve, analisa, projeta, implementa e atualiza sistemas de informação. Tem noções de gerenciamento, mas sua especialidade é a criação de sistemas informatizados: programação de computadores e desenvolvimento de softwares para ampliar a capacidade dos recursos do equipamento.
+          </p>
+          <p>
+            Ele implanta e desenvolve banco de dados. Conhece a estrutura física dos equipamentos e seus periféricos, e precisa se manter muito atualizado sobre aplicativos, ambientes operacionais e linguagens de programação. Além disso, precisa ter boa noção dos negócios da companhia para a qual trabalha.
+          </p>
+        </aside>
+    </article>
+
   </section>
-  <article>
-    <aside>
-        <h1>Análise e Desenvolvimento de Sistemas</h1>
-        <p>
-          O tecnólogo com esta formação desenvolve, analisa, projeta, implementa e atualiza sistemas de informação. Tem noções de gerenciamento, mas sua especialidade é a criação de sistemas informatizados: programação de computadores e desenvolvimento de softwares para ampliar a capacidade dos recursos do equipamento.
-        </p>
-        <p>
-          Ele implanta e desenvolve banco de dados. Conhece a estrutura física dos equipamentos e seus periféricos, e precisa se manter muito atualizado sobre aplicativos, ambientes operacionais e linguagens de programação. Além disso, precisa ter boa noção dos negócios da companhia para a qual trabalha.
-        </p>
-      </aside>
-  </article>
+  
   <footer>
     Facens- 2020 - Todos os direitos reservados.
   </footer>
