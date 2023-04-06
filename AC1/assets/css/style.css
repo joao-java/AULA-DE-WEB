@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.5529411765);
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+nav .logo {
+  background: #832323;
+}
+nav .menu {
+  background: aqua;
+  align-items: center;
+}
+nav .menu ul {
+  display: flex;
+}
+nav .menu ul li {
+  padding: 0 1rem;
+}/*# sourceMappingURL=style.css.map */

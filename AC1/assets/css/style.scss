@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    background: #0000008d;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-around;
+    
+
+    .logo{
+        background: #832323;
+    }
+
+    .menu{
+        background: aqua;
+        align-items: center;
+        ul{
+            display: flex;
+            li{
+                padding: 0 1rem;
+            }
+        }
+    }
+}
+
