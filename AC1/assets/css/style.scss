@@ -69,46 +69,39 @@ section{
     width: 100%;
     height: 100vh;
     position: relative;
-    background-image: url(//AC1/assets/imgs/capa.png);
-    background-position: center;
+    overflow: hidden;
+
+    background-image: url(../imgs/capa.png);
+    background-position: left;
+    background-size: contain;
+    object-fit: cover;
+
     .section_fundo{
         width: 100%;
         height: 100%;
-        position: relative;
-        div:nth-child(1){
-            width: 100%;
-            height: 100%;
-            img{
-                height: 100%;
-            }
-            ::after{
-                content: '';
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                background: rgb(198,38,186);
-                background: -moz-linear-gradient(90deg, rgba(198,38,186,0.8) 0%, rgba(132,0,255,0.8) 100%);
-                background: linear-gradient(90deg, rgba(198,38,186,0.8) 0%, rgba(132,0,255,0.8) 100%);
-            }
-        }
+        background: rgb(198,38,186);
+        background: linear-gradient(90deg, rgba(185, 31, 173, 0.603) 0%, rgba(132, 0, 255, 0.568) 100%);
 
     }
+
+
+    
     .slides{
-        z-index: 9;
         position: absolute;
         top: 50%;
         left: 50%;
-        width: 75%;
-        height: 40%;
         transform: translate(-50%, -50%);
         display: flex;
-        overflow-x: scroll;
+        width: 50%;
+        height: 400px;
+        padding: 1rem 0;
+        overflow: hidden;
 
         .slide{
-            min-width: 100%;
-            display: flex;
-            flex-direction: column;
+            width: 100%;
+            height: 100%;
             padding: 2rem;
+            flex-shrink: 0;
         }
         .conteudo{
             text-align: center;
@@ -135,5 +128,33 @@ section{
         .bd{
             padding: 2rem;
         }
+
+    }
+    .btn{
+        z-index: 10;
+        position: absolute;
+        top: 50%;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 25px;
+        transform: translateY(-50%);
+        cursor: pointer;
+        text-align: center;
+        color: #fff;
+
+        .btn--icon{
+            font-size: 40px;
+            transition: .3s;
+        }
+        i:hover{
+            text-shadow: #0000008a 3px 0px;
+        }
+
+    }
+    .anterior{
+        left: 20%;
+    }
+    .proximo{
+        right: 20%;
     }
 }
