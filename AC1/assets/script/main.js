@@ -41,6 +41,7 @@ function goToSlide(index) {
   });
 }
 
+// ----------------- Slides botões
 const btnAnterior = document.querySelector('.anterior');
 const btnProximo = document.querySelector('.proximo');
 
