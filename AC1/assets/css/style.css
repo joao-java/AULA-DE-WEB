@@ -139,7 +139,7 @@ section .anterior {
 section .proximo {
   right: 20%;
 }/*# sourceMappingURL=style.css.map */
-.section-back {
+.article-fundo {
   background: linear-gradient(90deg, rgb(255, 0, 234) 0%, rgb(99, 14, 179) 100%);
   position: relative;
   width: 100%;
