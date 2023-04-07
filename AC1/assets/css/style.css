@@ -139,16 +139,28 @@ section .anterior {
 section .proximo {
   right: 20%;
 }/*# sourceMappingURL=style.css.map */
+
+article{
+  height: 70%;
+  position: relative;
+}
+
+.article_texto{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+}
+
 .article-fundo {
   background: linear-gradient(90deg, rgb(255, 0, 234) 0%, rgb(99, 14, 179) 100%);
-  position: relative;
+  width: 100%;
+}
+.article-fundo img{
   width: 100%;
 }
 .divtext {
-  position: absolute;
-  top: 25%;
-  left: 30%;
-  transform: translate(-50%, -50%); 
   padding: 20px;
   width: 360px;
   
