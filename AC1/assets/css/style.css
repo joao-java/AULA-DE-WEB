@@ -186,3 +186,8 @@ article{
 .img{
   padding-right: 20px;
 }
+
+.divtext h1{
+font-size: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
