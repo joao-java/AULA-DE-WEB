@@ -63,6 +63,7 @@ section {
   background-image: url(../imgs/capa.png);
   background-position: left;
   background-size: contain;
+  background-attachment: fixed;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -103,6 +104,7 @@ section .slides .inte {
   justify-content: center;
 }
 section .slides .inte button {
+  margin-left: 8px;
   align-items: center;
   padding: 0.6rem 1rem;
   border-radius: 25px;
