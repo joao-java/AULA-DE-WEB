@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -27,34 +28,42 @@ nav {
   justify-content: space-around;
   z-index: 9;
 }
+
 nav .logo {
   display: flex;
   align-items: center;
 }
+
 nav .logo img {
   height: var(--img-P2);
 }
+
 nav .menu {
   display: flex;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
+
 nav .menu ul {
   display: flex;
   align-items: center;
 }
+
 nav .menu ul li {
   padding: 0 1rem;
 }
+
 nav .menu ul li a {
   color: var(--cor-text1);
 }
+
 nav .menu ul span {
   color: var(--cor-text1);
 }
 
-section {
+section,
+article {
   z-index: 8;
   width: 100%;
   height: 100vh;
@@ -65,14 +74,16 @@ section {
   background-size: contain;
   background-attachment: fixed;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-section .section_fundo {
+
+.section_fundo {
   width: 100%;
   height: 100%;
   background: rgb(198, 38, 186);
   background: linear-gradient(90deg, rgba(185, 31, 173, 0.603) 0%, rgba(132, 0, 255, 0.568) 100%);
 }
+
 section .slides {
   position: absolute;
   top: 50%;
@@ -84,25 +95,30 @@ section .slides {
   padding: 1rem 0;
   overflow: hidden;
 }
+
 section .slides .slide {
   width: 100%;
   height: 100%;
   padding: 2rem;
   flex-shrink: 0;
 }
+
 section .slides .conteudo {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 section .slides .conteudo h1 {
   font-size: 60px;
   font-weight: 400;
   color: var(--cor-text1);
 }
+
 section .slides .inte {
   display: flex;
   justify-content: center;
 }
+
 section .slides .inte button {
   margin-left: 8px;
   align-items: center;
@@ -113,9 +129,11 @@ section .slides .inte button {
   border: 1px solid var(--cor-text1);
   color: var(--cor-text1);
 }
+
 section .slides .bd {
   padding: 2rem;
 }
+
 section .btn {
   z-index: 10;
   position: absolute;
@@ -128,26 +146,32 @@ section .btn {
   text-align: center;
   color: #fff;
 }
+
 section .btn .btn--icon {
   font-size: 40px;
   transition: 0.3s;
 }
+
 section .btn i:hover {
   text-shadow: rgba(0, 0, 0, 0.5411764706) 3px 0px;
 }
+
 section .anterior {
   left: 20%;
 }
+
 section .proximo {
   right: 20%;
-}/*# sourceMappingURL=style.css.map */
-
-article{
-  height: 70%;
-  position: relative;
 }
 
-.article_texto{
+/*# sourceMappingURL=style.css.map */
+
+/* article{
+  height: 70%;
+  position: relative;
+} */
+
+.article_texto {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -159,21 +183,26 @@ article{
   background: linear-gradient(90deg, rgb(255, 0, 234) 0%, rgb(99, 14, 179) 100%);
   width: 100%;
 }
-.article-fundo img{
+
+.article-fundo img {
   width: 100%;
 }
+
 .divtext {
   padding: 20px;
   width: 360px;
   margin-top: -15%;
   margin-left: 5%;
 }
+
 .branco {
   color: white;
 }
+
 .blue {
- color: #87CEFA;
+  color: #87CEFA;
 }
+
 .smartphone {
   position: absolute;
   float: right;
@@ -185,13 +214,14 @@ article{
   display: flex;
   justify-content: space-between;
 }
-.img{
+
+.img {
   padding-right: 20px;
 }
 
-.divtext h1{
-font-size: 30px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.divtext h1 {
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .backgroundRelease {
