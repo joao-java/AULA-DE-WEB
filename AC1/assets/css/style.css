@@ -16,6 +16,10 @@
   --img-P2: 55%;
   --img-P1: 40%;
 }
+body {
+  background: linear-gradient(50deg, #ff4169, #7c26f8);
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 nav {
   background: rgba(0, 0, 0, 0.5529411765);
@@ -79,8 +83,8 @@ article {
 
 .section_fundo {
   width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, rgba(185, 31, 173, 0.603) 0%, rgba(132, 0, 255, 0.568) 100%);
+  height: 30%;
+ 
 }
 
 section .slides {
@@ -162,13 +166,11 @@ section .anterior {
 section .proximo {
   right: 20%;
 }
+.btn-azul {
+  background-color: #7c25f8;
+}
 
-/*# sourceMappingURL=style.css.map */
 
-/* article{
-  height: 70%;
-  position: relative;
-} */
 
 .article_texto {
   position: absolute;
